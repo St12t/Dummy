@@ -48,7 +48,7 @@ INSERT INTO Flight (
 -- Ticket
 INSERT INTO Ticket (
     id, customer_email, flight_id, sold_price,
-    payment_info_card_type, payment_info_card_number, 
+    payment_info_card_type, payment_info_card_number,
     payment_info_name_on_card, payment_info_expiration_date, purchase_date_time
 ) VALUES 
 (1, 'john.doe@example.com', 1, 500.00, 
